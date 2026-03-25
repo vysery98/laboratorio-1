@@ -1,5 +1,6 @@
 # Importación de librerías
 from flask import Flask
+from datetime import datetime
 
 # Importación de rutas - API
 from app.routes.appHealth import health_bp
@@ -19,7 +20,8 @@ def createApp():
             "asignatura": "Tratamiento de Datos",
             "grupo": 9,
             "integrantes": "Juan Diego Guevara, Luis Quizhpe, Miguel Perez",
-            "mensaje": "API - Laboratorio 1"
+            "mensaje": "API - Laboratorio 1",
+            "timestamp": datetime.utcnow().isoformat() + "Z"
         }, 200
 
     # Registro de rutas
