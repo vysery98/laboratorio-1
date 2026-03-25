@@ -1,5 +1,10 @@
+from flask import Blueprint, app, jsonify
+from datetime import datetime
+
+health_bp = Blueprint('health', __name__)
+
 # Endpoint para verificar el estado del API
-@app.route("/health", methods=["GET"])
+@health_bp.route("/health", methods=["GET"])
 def health():
     return jsonify({
         "status": "ok",
