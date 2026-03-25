@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8080
 ##revision de cambios jdguevara
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:main"]
