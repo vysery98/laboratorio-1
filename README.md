@@ -39,4 +39,21 @@ Ingreso de credenciales usuario
 ### Ejemplo de request
 ```json
 curl -X POST http://127.0.0.1:8080/auth/login -H "Content-Type: application/json" -d "{\"username\":\"admin\",\"password\":\"1234\"}"
- 
+
+## CAPTURAS
+
+- API funcionando localmente
+
+![API Funcionando localmente](imgs/ejecucionAPILocal.png)
+
+![API Funcionando localmente](imgs/ejecucionLocal_browser.png)
+
+- Construcción de imagen Docker
+
+
+- Contenedor ejecutándose
+
+
+- Prueba curl exitosa
+
+
