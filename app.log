@@ -1,0 +1,2 @@
+{"evento": "scoring", "datos": {"edad": 30, "ingresos": 1200, "score": 100, "riesgo": "bajo"}}
+{"evento": "login", "datos": {"usuario": "admin", "resultado": "ERROR"}}
