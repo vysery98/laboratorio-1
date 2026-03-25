@@ -50,10 +50,16 @@ curl -X POST http://127.0.0.1:8080/auth/login -H "Content-Type: application/json
 
 - Construcción de imagen Docker
 
+![Construcción imagen DOCKER](imgs/construccionImg.png)
 
 - Contenedor ejecutándose
 
+![Ejecución contenedor 1](imgs/ejecucionContenedor.png)
+
+![Ejecución contenedor 2](imgs/ejecucionDocker_.png)
 
 - Prueba curl exitosa
+
+![Pruebas Curl](imgs/ejecucionCurl.png)
 
 
